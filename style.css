@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box ;
+}
+
+.row div {
+    padding: 25px;
+    background: lime;
+    color: #fff;
+}
+
+.row{
+    display: flex;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-12{
+    flex: 1 1 calc(100% - 20%);
+}
+
+.col-6{
+    flex: 1 1 calc(50% - 20%); 
+}
+
+.col-4{
+    flex: 1 1 calc(33.3% - 20%);
+}
+
+.col-3{
+    flex: 1 1 calc(25% - 20%);
+}
+
+.col-25{
+    flex: 1 1 calc(20% - 20%);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
